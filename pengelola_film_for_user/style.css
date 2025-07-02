@@ -1,0 +1,111 @@
+/* Mengatur tampilan halaman secara umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('wallpaperbetter.jpg'); /* URL gambar latar */
+    background-size: cover; /* Membuat gambar menyesuaikan ukuran layar */
+    background-position: center; /* Pusatkan gambar latar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-attachment: fixed; /* Gambar tetap saat di-scroll */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Mengatur judul halaman */
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tampilan tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/* Checkbox dan radio button */
+form input[type="checkbox"], form input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Styling untuk formulir komentar */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Styling untuk setiap komentar */
+.komentar-box {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.komentar-box strong {
+    font-size: 16px;
+}
+
+.komentar-box p {
+    margin: 10px 0;
+}
+
